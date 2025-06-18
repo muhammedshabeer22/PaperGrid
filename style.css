@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.header{
+    color: rgb(238, 233, 233);
+   background-color:black;
+   padding-top:10px;
+   padding-bottom:15px;
+   width: 100%;
+   display:flex;
+   justify-content:center;
+   font-size: 12px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   border-bottom: 1px solid rgb(30, 28, 28);
+   font-weight: 100;
+}
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+}
+
+.navi2{
+   display: flex;
+   list-style: none;
+   background-color: rgb(0, 0, 0);
+   color: rgb(171, 166, 166);
+
+   padding-top: 24px;
+   width: 100%;
+margin-left: 0;
+}
+li{
+
+    text-decoration: none;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.logo{
+    height: 25px;
+    padding-bottom: 25px;
+}
+.contact{
+    margin-left: 650px;
+}
+.s1{
+    width:23px;
+}
+.home{
+    color: white;
+    text-decoration: underline;
+}
+.navi2 :hover{
+    color: white;
+    text-decoration:underline;
+}
+        
+.header:hover{
+    background-color: rgb(28, 27, 27);
+}
+.section img{
+    width: 29%;
+    margin: 17px;
+    
+
+}
+.section{
+    padding: 20px;
+    margin-left: 50px;
+}
+.bottom img{
+   width: 30%;
+
+  
+}
+
+.bottom{
+    display: flex;
+    margin-left: 77px;
+}
+.supper{
+    margin: 80px;
+    
+  
+}
+.bottom h2{
+    font-weight: 100;
+    
+
+}
+.supper p{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(79, 78, 78);
+}
+button{
+    padding: 14px 27px;
+    color:rgb(229, 229, 229) ;
+    background-color: black;
+    border: none;
+    
+}
+footer{
+    background-color: rgb(16, 14, 14);
+    margin-top: 80px;
+}
+.footer1{
+    color: white;
+
+    /* height: 50px; */
+    padding-bottom: 100px;
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+   
+    
+   
+}
+.footer1 h4{
+    font-weight:300;
+    font-size: 17px;
+}
+.footer1 p{
+    color: rgb(151, 151, 151);
+    font-size: 17px;
+    text-decoration: underline;
+}
+.footer1 p:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer2{
+    color: white;
+    background-color:rgb(16, 14, 14) ;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-top: solid 1px rgb(52, 52, 52) ;
+    font-size: 12px;
+ justify-content:center;
+}
+
+.footer2 :hover{
+    text-decoration:underline;
+    
+    
+}
+ul{
+    display: flex;
+    margin-left: 35px;
+    justify-content:center ;
+}
